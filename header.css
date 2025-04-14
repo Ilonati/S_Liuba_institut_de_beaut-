@@ -1,0 +1,8 @@
+.banner {
+    display: flex;
+    direction: row;
+}
+
+.root {
+    color: #89AC96 white;
+}
