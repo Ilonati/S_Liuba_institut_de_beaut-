@@ -1,13 +1,11 @@
-
-
 .header-flex {
 
     /** Position relative car l'image est placée en position: absolute; */
 
     position: relative;
-    
+
     display: flex;
-    
+
     /** Place au centre l'élément **/
     place-items: center;
     place-content: center;
@@ -25,6 +23,7 @@
 
     /* Aligné au centre car text-align: center fonctionne que sur du texte */
     margin: 0 auto;
+
 }
 
 .header-bg {
@@ -34,10 +33,13 @@
     top: 0;
     bottom: 0;
     right: 0;
+
 }
+
 .header-bg img {
     width: 100%;
     height: 100%;
+
 
     /** Couvre l'ensemble de la div et s'adapte à l'écran */
     object-fit: cover;

@@ -1,7 +1,7 @@
 /** Colors **/
 :root {
-    --color-primary: #6A736F;
-    --color-secondary: #4b504e;
+    --color-primary: #698c7c;
+    --color-secondary: #506e62;
 }
 
 /** Fonts */
@@ -20,14 +20,14 @@
 }
 
 /** Spacings **/
-:root {    
+:root {
     --padding-xs: 10px;
     --padding-sm: 20px;
     --padding-md: 30px;
     --padding-lg: 40px;
     --padding-xl: 50px;
-    --padding-xxl: 60px;   
-    --padding-xxl: 60px;  
+    --padding-xxl: 60px;
+    --padding-xxl: 60px;
     --padding-wide: 80px;
 
     --grid-gutter-width: 20px;
