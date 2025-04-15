@@ -1,3 +1,18 @@
+.BODY {
+    background-color: #C9DAD0;
+}
+
+.page {
+    max-block-size: 100%;
+    margin: 10px;
+    padding: 10px;
+    float: left;
+
+}
+
+
+
+
 .main {
     max-width: 100%;
     background: white;
