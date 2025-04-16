@@ -1,7 +1,7 @@
-@use 'elements/reset';
-@use 'elements/document';
+@import 'elements/reset';
+@import 'elements/document';
 
-@use 'settings/config.colors';
+@import 'settings/config.colors';
 
-@use 'components/sections';
-@use 'pages/home';
+@import 'components/sections';
+@import 'pages/home';
