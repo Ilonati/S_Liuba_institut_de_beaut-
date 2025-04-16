@@ -1,0 +1,22 @@
+
+.button-service {
+    background: #6A736F;
+    background: linear-gradient(90deg, rgba(106, 115, 111, 1) 29%, rgba(201, 218, 208, 1) 98%);
+    padding-top: 4%;
+    padding-bottom: 4%;
+    border-radius: 0px 0px 20px 20px;
+    border-style: none;
+    width: 100%;
+    text-decoration: none;
+}
+
+.button-service:hover {
+    background: #2A7B9B;
+    background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(83, 237, 224, 1) 100%);
+}
+
+
+
+.button-service:active {
+    background: rgb(7, 129, 58);
+}

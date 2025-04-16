@@ -14,7 +14,7 @@
 
     --font-size-navigation: 20px;
 
-    @media (max-width: 768px) {
+    @include media-max("phone-down") {
         --font-size-base: 16px;
     }
 }
@@ -32,7 +32,7 @@
 
     --grid-gutter-width: 20px;
 
-    @media (min-width: 768px) {
+    @include media-max("phone-down") {
         --grid-gutter-width: 40px;
     }
 }

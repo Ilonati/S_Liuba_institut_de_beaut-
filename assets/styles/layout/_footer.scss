@@ -1,0 +1,34 @@
+.footer-wrapper {
+    background: #C9DAD0;
+    background: radial-gradient(circle, rgba(201, 218, 208, 1) 0%, rgba(102, 128, 114, 1) 59%, rgba(106, 115, 111, 1) 92%);
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: var(--padding-lg);
+    justify-content: space-between;
+
+    margin-top: var(--padding-lg);
+    padding: var(--padding-lg) 0;
+
+    @include media-max("phone-down") {
+        grid-template-columns: 1fr;
+    }
+}
+
+.footer-box-left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 5px;
+}
+
+
+.footer-box-centre {
+    width: 100%;
+    
+    iframe {
+        width: 100%;
+    }
+}
