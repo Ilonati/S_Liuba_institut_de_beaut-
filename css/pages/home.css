@@ -9,4 +9,58 @@
 
 .apropos p {
     text-align: center;
+    line-height: 2;
+    /* растояние между строчками*/
+}
+
+.apropos h2 {
+    font-size: var(--font-size-h2);
+    text-align: center;
+    margin-top: 3%;
+}
+
+.services {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 3%;
+
+
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+    }
+}
+
+.service {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    margin: 2%;
+    width: 100%;
+
+}
+
+.service img {
+    border-radius: 5% 5% 0px 0px;
+    width: 100%;
+
+}
+
+.services-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: aliceblue;
+}
+
+.button-service {
+    background: #6A736F;
+    background: linear-gradient(90deg, rgba(106, 115, 111, 1) 29%, rgba(201, 218, 208, 1) 98%);
+    padding-top: 4%;
+    padding-bottom: 4%;
+    border-radius: 0px 0px 20px 20px;
+    width: 100%;
 }
