@@ -1,0 +1,45 @@
+/** Colors **/
+:root {
+    --color-primary: #698c7c;
+    --color-secondary: #506e62;
+}
+
+/** Fonts */
+:root {
+    --font-family-base: "Arial";
+    --font-family-title: "Alegreya", serif;
+
+    --line-height-base: 1.5;
+    --font-size-base: 18px;
+
+    --font-size-navigation: 20px;
+
+    @media (max-width: 768px) {
+        --font-size-base: 16px;
+    }
+}
+
+/** Spacings **/
+:root {
+    --padding-xs: 10px;
+    --padding-sm: 20px;
+    --padding-md: 30px;
+    --padding-lg: 40px;
+    --padding-xl: 50px;
+    --padding-xxl: 60px;
+    --padding-xxl: 60px;
+    --padding-wide: 80px;
+
+    --grid-gutter-width: 20px;
+
+    @media (min-width: 768px) {
+        --grid-gutter-width: 40px;
+    }
+}
+
+/** Titles */
+:root {
+    --font-size-h1: 34px;
+    --font-size-h2: 26px;
+    --font-size-h3: 22px;
+}

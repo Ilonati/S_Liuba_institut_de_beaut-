@@ -1,0 +1,28 @@
+.navigation {
+    background: var(--color-primary);
+}
+
+.navigation ul {
+    display: flex;
+    justify-content: center;
+
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+    }
+}
+
+.navigation ul li a {
+    color: #fff;
+    display: block;
+    font-family: var(--font-family-title);
+    font-weight: 700;
+    text-decoration: none;
+    font-size: var(--font-size-navigation);
+    padding: var(--padding-md);
+
+}
+
+.navigation ul li a:hover {
+    background: var(--color-secondary);
+}

@@ -1,7 +1,16 @@
-html {
-
-}
+html {}
 
 body {
     background: var(--primary-color);
+}
+
+body {
+    font-size: var(--font-size-base);
+    line-height: var(--line-height-base);
+}
+
+
+.page {
+    background: #A5BFAE;
+    background: linear-gradient(180deg, rgba(165, 191, 174, 1) 38%, rgba(255, 255, 255, 1) 100%);
 }
