@@ -56,6 +56,12 @@
     object-fit: cover;
 }
 
+.header-navigation ul li:nth-child(4) {
+    @media (min-width: 768px) {
+        margin-left: auto;
+    }
+}
+
 .header-burger {
     display: none;
     margin-left: auto;

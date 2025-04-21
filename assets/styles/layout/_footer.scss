@@ -22,14 +22,39 @@
     flex-direction: column;
     gap: 20px;
     margin: 5px;
+    align-items: flex-start;
+    align-self: flex-end;
+    color: white;
+    text-align: justify;
 }
 
 
 .footer-box-centre {
     width: 100%;
 
+
     iframe {
         width: 100%;
         height: 350px;
     }
+}
+
+.footer-box-right {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 5px;
+    align-items: flex-end;
+    align-self: flex-end;
+    text-align: right;
+    color: white;
+
+}
+
+.footer-left-title {
+    font-weight: bold;
+}
+
+.footer-right-title {
+    font-weight: bold;
 }
