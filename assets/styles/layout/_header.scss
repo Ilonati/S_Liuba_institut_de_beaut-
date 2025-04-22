@@ -26,6 +26,17 @@
 
 }
 
+.langues {
+
+    z-index: 99;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    background: #ffffff;
+    margin-right: 10px;
+
+}
+
 .header-bg {
     /** Positionné en absolute pour être en fond */
     position: absolute;
@@ -43,4 +54,111 @@
 
     /** Couvre l'ensemble de la div et s'adapte à l'écran */
     object-fit: cover;
+}
+
+.header-navigation ul li:nth-child(4) {
+    @media (min-width: 768px) {
+        margin-left: auto;
+    }
+}
+
+.header-burger {
+    display: none;
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.header-burger svg {
+    stroke: #056608;
+    width: 50px;
+    height: 50px;
+}
+
+.header-close {
+    display: none;
+}
+
+
+@media screen and (max-width: 768px) {
+
+
+    .header-burger {
+
+        display: block;
+        cursor: pointer;
+    }
+
+    .navigation {
+        z-index: 1000;
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 300px;
+        height: 100vh;
+        background-color: #ffffff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transform: translateX(100%);
+    }
+
+    .navigation.open {
+        transform: initial;
+    }
+
+    .navigation ul {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 40%;
+    }
+
+    .navigation ul li {
+        margin-bottom: 100px;
+    }
+
+    .navigation ul li a {
+        font-size: 24px;
+    }
+
+    .header-close {
+        display: block;
+    }
+
+    .header-close {
+        display: block;
+        cursor: pointer;
+    }
+
+    .header-close svg {
+        position: absolute;
+        top: 16px;
+        right: 16px;
+        width: 50px;
+        height: 50px;
+        stroke: #056608;
+
+    }
+
+    .overlay-menu-mobile {
+        z-index: 999;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vh;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.7);
+        display: none;
+    }
+
+    .overlay-menu-mobile.open {
+        display: block;
+    }
+}
+
+.navigation.open {
+    transition: 0.3s transform ease-in-out;
+}
+
+.navigation.transition {
+    transform: translateX(100%);
 }
