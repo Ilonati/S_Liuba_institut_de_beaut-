@@ -4,6 +4,7 @@
 
 .navigation ul {
     display: flex;
+
     justify-content: center;
 
     @include media-max("phone-down") {
