@@ -1,0 +1,1 @@
+(()=>{let e=document.getElementById("openMenu"),n=document.getElementById("closeMenu"),t=document.getElementById("main-nav"),s=document.querySelector(".overlay-menu-mobile");e&&e.addEventListener("click",(function(){t.classList.add("visible"),s&&s.classList.add("open")})),n&&n.addEventListener("click",(function(){t.classList.remove("visible"),s&&s.classList.remove("open")}))})();

@@ -1,5 +1,6 @@
 .navigation {
     background: var(--color-primary);
+    transition: transform linear .2s;
 }
 
 .navigation ul {
@@ -20,9 +21,52 @@
     text-decoration: none;
     font-size: var(--font-size-navigation);
     padding: var(--padding-md);
-
+    transition: linear background-color .2s;
+}
+.navigation ul li a:hover {
+    background-color: var(--color-secondary);
 }
 
-.navigation ul li a:hover {
-    background: var(--color-secondary);
+@media screen and (max-width: 768px) {
+    .navigation {
+        z-index: 1000;
+        position: fixed;
+        top: 0;
+        left: 0;
+        max-width: 500px;
+        width: 85%;
+        height: 100vh;
+        background-color: #ffffff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transform: translateX(-100%);
+    }
+
+    .navigation.open {
+        transform: initial;
+    }
+
+    .navigation ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navigation ul li {
+    }
+
+    .navigation ul li a {
+        font-size: 24px;
+        color: #000;
+    }
+
+    .navigation ul li a:hover {
+        color: #fff;
+    }
+}
+
+
+// Gestion du cas avec JavaScript
+#main-nav.visible {
+    transform: translateX(0);
 }
