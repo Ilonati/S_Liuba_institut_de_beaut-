@@ -23,6 +23,7 @@
     padding: var(--padding-md);
     transition: linear background-color .2s;
 }
+
 .navigation ul li a:hover {
     background-color: var(--color-secondary);
 }
@@ -36,7 +37,12 @@
         max-width: 500px;
         width: 85%;
         height: 100vh;
-        background-color: #ffffff;
+        border-radius: 0px 20px 20px 0px;
+        border: 2px solid gray;
+
+        background: #6a736f;
+        background: linear-gradient(90deg, #6a736f 29%, #c9dad0 98%);
+
         display: flex;
         align-items: center;
         justify-content: center;
@@ -52,16 +58,19 @@
         align-items: center;
     }
 
-    .navigation ul li {
-    }
+    .navigation ul li {}
 
     .navigation ul li a {
         font-size: 24px;
-        color: #000;
+        color: white;
+
     }
 
+
+
     .navigation ul li a:hover {
-        color: #fff;
+        color: #6a736f;
+        ;
     }
 }
 
