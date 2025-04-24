@@ -23,7 +23,11 @@
 
     /* Aligné au centre car text-align: center fonctionne que sur du texte */
     margin: 0 auto;
+    transition: all 0.3s ease-in-out;
+}
 
+.header-logo:hover {
+    transform: scale(1.1);
 }
 
 
