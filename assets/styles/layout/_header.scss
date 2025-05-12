@@ -20,13 +20,14 @@
     position: relative;
     /** Placée au dessus de tous les autres éléments avec z-index */
     z-index: 99;
-    transform: scale(0.2);
 
     /* Aligné au centre car text-align: center fonctionne que sur du texte */
     margin: 0 auto;
     transition: all 0.3s ease-in-out;
 
-
+    img {
+        max-height: 200px;
+    }
 }
 
 .header-logo:hover {
