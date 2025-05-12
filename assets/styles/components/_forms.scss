@@ -1,0 +1,24 @@
+.form-group {
+    margin-top: var(--padding-sm);
+    display: flex;
+    flex-direction: column;
+
+    label {
+        font-weight: bold;
+        margin-bottom: var(--padding-xxs);
+    }
+
+    .form-control {
+        border: 1px solid var(--border-color);
+        padding: var(--padding-xs) var(--padding-sm);
+        border-radius: 6px;
+        font-size: var(--font-size-base);
+    }
+
+}
+
+
+// <div class="form-group">
+                        //     <label for="nometprenom">Votre nom et prénom :</label>
+                        //     <input type="nometprenom" id="nometprenom" maxlength="50" name="nometprenom" required>
+                        // </div>

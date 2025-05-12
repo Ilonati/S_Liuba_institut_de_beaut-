@@ -6,6 +6,11 @@
     font-size: var(--font-size-h1);
     text-align: center;
 
+    span {
+        display: block;
+        // Calcul multiplié par 1.6 la taille de base
+        font-size: calc(var(--font-size-h1) * 1.6);
+    }
 }
 
 .apropos p {

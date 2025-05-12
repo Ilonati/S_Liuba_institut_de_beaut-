@@ -1,17 +1,34 @@
 .main-content {
-
     max-width: 100;
     padding: 100px;
-    background-image: url(/images/pour\ le\ fond\ abstraction\ de\ fleurs\ vert\ claire\ \(1\).jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    position: relative;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+
+    // Affichage de la photo de fond
+    &:before {
+        content: ''; // Obligatoire quand on utilise :before {} ou :after {}
+        display: block; // Obligatoire avec :before {} ou :after {} - Transforme en type block pour qu'il occupe tout l'espace
+        background-image: url('/images/FondFleur2.jpg'); // Gère l'image
+        background-size: cover; // Force l'image à prendre 100% de l'espace
+        opacity: .5; // Gère l'opacité
+        position: absolute; // positionne le block en absolute pour qu'il prenne en compte les top/left/right/bottom
+        top: 0; // positionne le block en haut
+        left: 0; // force à démarrer le bloc à gauche
+        right: 0; // force à démarrer le bloc à droite
+        bottom: 0; // force à démarrer le bloc en bas
+        height: 100%; // hauteur 100%
+        width: 100%; // largeur 100%;
+    }
 }
 
 .main-box {
     max-width: 100%;
-    background: white;
+    background: #fff;
+    z-index: 999;
+    position: relative;
     border-radius: 25px;
     margin-top: 30px;
     margin-left: 30px;

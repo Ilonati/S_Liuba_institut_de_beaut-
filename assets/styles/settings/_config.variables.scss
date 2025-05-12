@@ -21,6 +21,7 @@
 
 /** Spacings **/
 :root {
+    --padding-xxs: 5px;
     --padding-xs: 10px;
     --padding-sm: 20px;
     --padding-md: 30px;
@@ -37,9 +38,10 @@
     }
 }
 
+
 /** Titles */
 :root {
-    --font-size-h1: 34px;
+    --font-size-h1: 36px;
     --font-size-h2: 26px;
     --font-size-h3: 22px;
 }
