@@ -18,9 +18,7 @@
 
     <body>
         <div class="page">
-            <div id="scrollUp">
-                <a href="#top"><img src="to_top.png" /></a>
-            </div>
+
             <header class="header">
                 <div class="header-flex">
                     <div class="header-logo">
@@ -39,6 +37,7 @@
                         </svg>
                     </div>
                     <div id="menu-js"></div>
+
                 </nav>
                 <div class="header-burger" id="openMenu">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -48,19 +47,88 @@
                     </svg>
                 </div>
             </header>
+            <div class="scrollUp">
+                <a href="#top">
+                    <svg fill="none" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M11.9999 5L17.9999 11M11.9999 5L5.99988 11M11.9999 5L11.9999 19" stroke="currentColor"
+                            stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+                    </svg>
+                </a>
+            </div>
 
-            <main class="main">
-                <div class="container">
-                    <div class="apropos">
-                        <h1>Contact</h1>
+            <div class="main-content">
 
-
-
+                <div class="main-box">
+                    <div class="title">
+                        <h1>Je suis toujours ravis de vous accueillir !</h1>
+                    </div>
+                    <div class="article">
+                        <p>
+                            Si vous avez des questions, des souhaits ou si vous souhaitez prendre rendez-vous pour un
+                            soin, n’hésitez pas à me contacter par le moyen qui vous convient le mieux. Je
+                            serai ravis de vous aider à choisir la prestation idéale, de vous informer sur
+                            mes offres en cours et de répondre à toutes vos questions.
+                        </p>
+                    </div>
+                    <div class="article">
+                        <p>La beauté commence par l’attention, et je suis là pour rendre votre visite agréable et
+                            inoubliable.</p>
                     </div>
 
+                    <form class="form-contact">
+                        <div class="form-group">
+                            <label for="nometprénom">Votre nom et prénom :</label>
+                            <input type="nometprénom" id="nometprénom" maxlength="50" name="nometprénom" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="numero">Votre numéro de téléphone :</label>
+                            <input type="numero" id="numero" maxlength="20" name="numero" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="mail">Votre adresse e-mail :</label>
+                            <input type="mail" id="mail" maxlength="50" name="mail" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="mail">Sujet :</label>
+
+                            <select>
+                                <option>Choisissez...</option>
+                                <option>Servis Massage</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Votre message :</label>
+                            <textarea name="message" id="message" rows="10" cols="50"></textarea>
+                        </div>
+
+                        <div class="form-group checkbox">
+                            <label for="politiquedeconfidentialite">
+                                <input type="checkbox" id="politiquedeconfidentialite">
+                                <span>En validant ce formulaire, je reconnais avoir
+                                    pris
+                                    connaissance de la <a href="#" title="Politique de confidentialité">Politique de
+                                        confidentialité</a>
+                                    et
+                                    des
+                                    droits dont je dispose sur mes données personnelles.
+                                </span>
+                            </label>
+                        </div>
+                        <div class="form-group">
+                            <a href="Connecter.html"> <button class="btn btn-message">Envoyer mon
+                                    message</button></a>
+                        </div>
+                    </form>
 
                 </div>
-            </main>
+
+
+
+            </div>
             <footer class="footer-wrapper">
                 <div class="container">
                     <div class="footer-container">
