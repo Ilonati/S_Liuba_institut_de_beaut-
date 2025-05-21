@@ -65,8 +65,16 @@
 
     /** Couvre l'ensemble de la div et s'adapte à l'écran */
     object-fit: cover;
+
     width: 100%;
+
+
+    @media (max-width: 480px) {
+        width: 200%;
+    }
 }
+
+
 
 .header-navigation ul li:nth-child(4) {
     @media (min-width: 768px) {
@@ -137,4 +145,29 @@
     .overlay-menu-mobile.open {
         display: block;
     }
+}
+
+
+
+.language {
+    display: flex;
+    flex-direction: column;
+}
+
+.language__img {
+    margin: 2px;
+    cursor: pointer;
+    opacity: .5;
+}
+
+.language__img:hover,
+.language__img_active {
+    opacity: 1;
+}
+
+/* content */
+
+.content {
+    text-align: center;
+    margin: auto;
 }
