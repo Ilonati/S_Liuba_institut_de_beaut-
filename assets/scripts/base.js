@@ -3,3 +3,4 @@ import "./components/scrol";
 import "./components/menu";
 import "./components/fslightbox";
 import "./components/text/googletrad";
+import "./components/massage";
