@@ -88,8 +88,48 @@
                             </div>
                         </div>
                     </div>
+<div class="massage">
+                        <div class="massage_bloc">
+                            <div class="massage_title">
+                            Massage facial Classique  
+                                <img src="<?php echo IMG_DIR; ?>massage du dos.jpg">
+                                <span class="caret"><svg class="caret-down" width="16" height="16" fill="currentColor"
+                                        class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                                        <path
+                                            d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+                                    </svg></span>
+
+                            </div>
+                            <div class="massage_answer-bloc">
+                                <div class="massage_answer">Le massage facial classique est une technique manuelle qui agit sur les tissus musculaires et la peau. Le massage du visage agit dans plusieurs directions à la fois. Il améliore l’état et l’apparence de la peau, stimule les processus importants du corps, aide à maintenir la jeunesse et la beauté et prévient les changements négatifs. La peau est affectée par de nombreux facteurs, tels que le stress et la fatigue constants, une mauvaise écologie, le manque de sommeil et une mauvaise alimentation. Tout cela conduit à l’apparition de rides et à un teint malsain.Lorsqu'ils sont effectués correctement, les mouvements de massage augmentent le flux sanguin vers les tissus et activent le flux lymphatique dans l'épiderme et le tissu sous-cutané. En accélérant le flux sanguin, davantage de nutriments et d’oxygène sont délivrés aux cellules de la peau. Cela favorise une régénération rapide, la production d’élastine et de collagène. Dans le même temps, le fonctionnement des glandes sébacées et l’équilibre hydrique sont normalisés. L’écoulement de la lymphe aide à réduire l’enflure et la flaccidité de la peau et à éliminer les toxines et les impuretés.
+                                     <p>Dureé 45min Tarif 50 €</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+ <div class="massage">
+                        <div class="massage_bloc">
+                            <div class="massage_title">
+                                <img src="<?php echo IMG_DIR; ?>massage (1).jpg">
+                                 Massage facial Japonais (Ko-Bi-Do)   
+                                <span class="caret"><svg class="caret-down" width="16" height="16" fill="currentColor"
+                                        class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                                        <path
+                                            d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+                                    </svg></span>
 
 
+
+                            </div>
+                            <div class="massage_answer-bloc">
+                                <div class="massage_answer">Le massage japonais du visage, aussi appelé “lifting naturel”, est la technique anti-ride par excellence ! Anti-âge, drainant, relaxant, tonifiant et décongestionnant, le Kobido a tout bon ! Explications sur ce soin du visage aux nombreux bienfaits qui séduit l’occident.
+                                    Plus qu’un massage, le Kobido est un art ancestral japonais qui stimule les muscles et tissus du visage de la superficie à la profondeur. La nuque, le cou et le décolleté sont aussi travaillés. Basée sur des gestuelles précises, ces techniques aux nombreuses variations de rythmes nécessitent l’habilité et la souplesse des doigts et des poignets. Ce soin alterne pressions, modelages, lissages, étirements, frictions, vibrations dans une chorégraphie presque solennelle. L’effet lifting est immédiat après la séance, la peau est rebondie, le teint plus frais, l’ovale du visage redessiné.
+                                    
+                                    <p>Dureé 1h Tarif 60 €</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </main>
            <?php include('templates/footer.php'); ?>

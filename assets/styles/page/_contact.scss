@@ -1,5 +1,5 @@
 .main-content {
-    max-width: 100;
+    max-width: 100%;
     padding: 100px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -23,6 +23,12 @@
         width: 100%; // largeur 100%;
     }
 
+    @include media-max("phone-down") {
+        flex-direction: column;
+        padding: 10px;
+
+    }
+
 
 }
 
@@ -39,6 +45,9 @@
 
     @include media-max("phone-down") {
         flex-direction: column;
+        max-width: 100%;
+
+
     }
 
 
