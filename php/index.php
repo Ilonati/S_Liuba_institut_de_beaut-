@@ -7,72 +7,30 @@
 		<title></title>
 		<meta name="description" content="" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link id="main-css" rel="stylesheet" href="<?php echo CSS_DIR; ?>theme.css" />
+		<link id="main-css" rel="stylesheet" href="<?php echo CSS_DIR; ?>theme.css?<?=time();?>" />
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap"
 			rel="stylesheet">
 
-		<!-- Elfsight Google Reviews | Untitled Google Reviews -->
-		<script src="https://static.elfsight.com/platform/platform.js" async></script>
 		<!-- Elfsight Website Translator | Untitled Website Translator -->
 		<script src="https://static.elfsight.com/platform/platform.js" async></script>
 
-		<script src="dist/js/theme.js" defer></script>
+		<script src="<?php echo JS_DIR; ?>theme.js?<?=time();?>" defer></script>
+		<script src="<?php echo JS_DIR; ?>fslightbox.js" defer></script>
+
 	</head>
 
 	<body>
 		<div class="overlay-menu-mobile"></div>
 		<div class="page">
 
-			<header class="header">
-
-				<div class="header-flex">
-
-					<div class="header-logo">
-						<a href="/"><img src="images/Logo_S_Luba.png" alt="Logo" /></a>
-					</div>
-
-					<div class="header-bg">
-						<img src="<?php echo IMG_DIR; ?>/fond floral dans des tons vert clair.jpg" alt="" />
-					</div>
-				</div>
-
-				<nav class="navigation" id="main-nav">
-					<div class="header-close" id="closeMenu">
-						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-							stroke="currentColor" class="size-6">
-							<path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
-						</svg>
-					</div>
-					<div id="menu-js"></div>
-				</nav>
-
-				<div class="header-burger" id="openMenu">
-					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-						stroke="currentColor">
-						<path stroke-linecap="round" stroke-linejoin="round"
-							d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-					</svg>
-				</div>
-				<div class="elfsight-app-0591de6c-d1b5-405f-be6e-592262fb214f" data-elfsight-app-lazy></div>
-			</header>
-			<div class="scrollUp">
-				<a href="#top">
-					<svg fill="none" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-						<path d="M11.9999 5L17.9999 11M11.9999 5L5.99988 11M11.9999 5L11.9999 19" stroke="currentColor"
-							stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
-					</svg>
-				</a>
-			</div>
+			<?php include ('templates/header.php'); ?>
 
 			<main class="main">
-
 				<div class="container">
 					<div class="apropos">
 						<h1><span>S.Liuba</span> votre institut de beauté à Tarbes</h1>
-
-
 						<p><img src="https://cdn-icons-png.flaticon.com/512/2982/2982154.png" alt="Птицы" title="Птицы"
 								width="44" height="44">
 							Installé au cœur de la charmante ville de Tarbes, l'Institut de beauté S.Liuba est le
@@ -103,21 +61,21 @@
 
 					<div class="services">
 						<div class="service">
-							<img src="images/massage du dos (1).jpg" alt="image massage" title="massage" width="354"
+							<img src="<?php echo IMG_DIR; ?>massage du dos (1).jpg" alt="image massage" title="massage" width="354"
 								height="339">
 							<a href="Massage.html" title="Massage" class="button-service">
 								<div class="services-item">Massage</div>
 							</a>
 						</div>
 						<div class="service">
-							<img src="images/permanante maquiage.jpg" alt="image permanent" title="permanent"
+							<img src="<?php echo IMG_DIR; ?>permanante maquiage.jpg" alt="image permanent" title="permanent"
 								width="354" height="339">
 							<a href="Permanent.html" title="Permanent" class="button-service">
 								<div class="services-item">Permanent</div>
 							</a>
 						</div>
 						<div class="service">
-							<img src="images/tatouage du ciles.jpg" alt="image cils" title="cils" width="354"
+							<img src="<?php echo IMG_DIR; ?>tatouage du ciles.jpg" alt="image cils" title="cils" width="354"
 								height="339">
 							<a href="Cils.html" title="Cils" class="button-service">
 								<div class="services-item">Cils</div>
@@ -131,44 +89,7 @@
 
 				</div>
 			</main>
-			<footer class="footer-wrapper">
-				<div class="container">
-					<div class="footer-container">
-						<div class="footer-box-left">
-							<a href="https://www.instagram.com/maquillage_permanent_tarbes/" title="instagram"><img
-									src="images/4102579_applications_instagram_media_social_icon.png" alt="intagram"
-									title="instagram"></a>
-
-
-							<div class="footer-left-title">S.Liuba institut beauté</div>
-							<ul class="footer-left-list">
-								<li>8 Bis Bd Claude Debussy </li>
-								<li>65000 Tarbes, France</li>
-								<li>Téléphone: 0783714349</li>
-								<li>mail@gmail.com</li>
-							</ul>
-						</div>
-						<div class="footer-box-centre">
-							<iframe
-								src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2907.473654693379!2d0.059732112102351395!3d43.22052798018634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x884ad52e11e71b4b%3A0x971a3a4d303c928e!2sMassage%20Bien%20Etre%2C%20Massage%20Sensuel%2C%20S.Liuba%20institut%20beaut%C3%A9!5e0!3m2!1sfr!2sfr!4v1744813907975!5m2!1sfr!2sfr"
-								style="border:0;" allowfullscreen="" loading="lazy"
-								referrerpolicy="no-referrer-when-downgrade"></iframe>
-						</div>
-
-						<div class="footer-box-right">
-							<div class="footer-right-title">Horaires d’ouverture</div>
-							<ul class="footer-grid-right-list">
-								<li>Lundi au Samedi :</li>
-								<li>09:00–19:00 </li>
-								<li>Dimanche :</li>
-								<li>14:00–18:00</li>
-								<li>Mardi Fermé </li>
-							</ul>
-
-						</div>
-					</div>
-				</div>
-			</footer>
+			<?php include('templates/footer.php'); ?>
 		</div>
 	</body>
 

@@ -1,6 +1,5 @@
-import "./components/burger";
-import "./components/scrol";
-import "./components/menu";
-import "./components/fslightbox";
-import "./components/text/googletrad";
-import "./components/massage";
+import "./components/burger.js";
+import "./components/scrol.js";
+import "./components/menu.js";
+import "./components/text/googletrad.js";
+import "./components/massage.js";
