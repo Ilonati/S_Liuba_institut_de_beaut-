@@ -1,6 +1,6 @@
 # ignore all xml
 *.xml
-
+.env
 resources/*
 node_modules
 .DS_Store
