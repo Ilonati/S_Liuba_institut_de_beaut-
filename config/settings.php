@@ -1,8 +1,8 @@
 <?php
 
 // Variable a modifier pour passage en prod
-define ("ENV", "local");
-// define ("ENV", "prod");
+// define ("ENV", "local");
+define ("ENV", "prod");
 
 if (ENV === "local") {
     define ('CSS_DIR', 'http://sliuba.local/dist/css/');
