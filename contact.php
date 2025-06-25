@@ -48,6 +48,11 @@
                             <input class="form-control" type="nometprenom" id="nometprenom" maxlength="50"
                                 name="nometprenom" required>
                         </div>
+                        <div class="form-group">
+                            <label for="nometprenom">Votre nom et prénom :</label>
+                            <input class="form-control" type="nometprenom" id="nometprenom" maxlength="50"
+                                name="nometprenom" required>
+                        </div>
 
                         <div class="form-group">
                             <label for="numero">Votre numéro de téléphone :</label>
