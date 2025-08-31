@@ -30,6 +30,7 @@
     "eslint-plugin-react": "^7.37.5",
     "eslint-webpack-plugin": "^5.0.1",
     "globals": "^16.1.0",
+    "jest": "^30.1.1",
     "mini-css-extract-plugin": "^2.9.2",
     "postcss-loader": "^8.1.1",
     "sass": "^1.85.1",

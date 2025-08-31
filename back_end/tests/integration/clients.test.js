@@ -1,8 +1,10 @@
-jest.mock("../../src/db", () => ({
+
+jest.mock("../../db", () => ({
   query: jest.fn()
 }));
-const pool = require("../../src/db");
-const clientsRouter = require("../../src/routes/clients");
+const pool = require("../../db");
+const clientsRouter = require("../../root/clients");
+
 
 describe("Clients Routes", () => {
   beforeEach(() => jest.clearAllMocks());

@@ -1,8 +1,8 @@
-jest.mock("../../src/db", () => ({
+jest.mock("../../db", () => ({
     query: jest.fn()
 }));
-const pool = require("../../src/db");
-const formRouter = require("../../src/routes/formulaire");
+const pool = require("../../db");
+const formRouter = require("../../root/formulaire");
 
 describe("Formulaire Routes", () => {
     beforeEach(() => jest.clearAllMocks());
