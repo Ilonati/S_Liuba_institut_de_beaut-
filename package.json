@@ -10,7 +10,9 @@
     "watch-sync": "cross-env NODE_ENV=development webpack --watch",
     "scss-lint": "stylelint \"**/*.scss\" --formatter verbose",
     "scss-fix": "stylelint \"**/*.scss\" --fix",
-    "start": "nodemon ./back_end/server.js"
+    "start": "nodemon ./back_end/server.js",
+    "test": "jest",
+    "test:coverage": "jest --coverage"
   },
   "author": "Afec",
   "license": "",
